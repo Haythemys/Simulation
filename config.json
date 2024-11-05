@@ -1,0 +1,6 @@
+{
+    "height": 10,
+    "width": 10,
+    "initial_fire_positions": [[2, 3], [4, 5]],
+    "spread_probability": 0.3
+}

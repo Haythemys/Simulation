@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simulation de Feu de Forêt</title>
+    <style>
+        /* Stylisation des cellules de la grille pour représenter les différents états */
+        .cell { width: 20px; height: 20px; display: inline-block; margin: 1px; }
+        .empty { background-color: green; } /* La case vide est verte (représente la forêt) */
+        .fire { background-color: red; }    /* La case en feu est rouge */
+        .ash { background-color: gray; }    /* La case en cendre est grise */
+    </style>
+</head>
+<body>
+    <!-- Conteneur pour afficher la grille de la forêt -->
+    <div id="forest"></div>
+
+    <!-- Bouton pour démarrer la simulation de feu -->
+    <button onclick="startSimulation()">Lancer la simulation</button>
+</body>
+<script src="./simulation.js"></script>
+</html>
